@@ -9,7 +9,8 @@ public class Consultorias  {
     public Boolean documents; 
 
     //Contructor
-    public Consultorias (String name_company, String name_company,String email, Int mobile, String message, Boolean type_service, Boolean documents){
+    public Consultorias (String name_company, String name_company,String email, Int mobile, 
+    String message, Boolean type_service, Boolean documents){
         this.name_contact = name_contact;
         this.name_company = name_company
         this.email = email;
@@ -20,7 +21,8 @@ public class Consultorias  {
     }
     //Crear metodo sin retorno por el void
     public void obtenerDatosConsultoria() {
-        System.out.println("Contacto: " + name_contact + ", Empresa: " + name_company + ", Tipo Servicio: " + type_service);
+        System.out.println("Contacto: " + name_contact + ", Empresa: " + name_company +
+         ", Tipo Servicio: " + type_service);
     }
     
     // Creamos metodo de la clase Consultoria con retorno
@@ -34,6 +36,5 @@ public class Consultorias  {
 
         //Llamar el método para mostrar datos de la constultoria
         consultoria1.obtenerDatosConsultoria();
-    }
-    
+    }   
 }
